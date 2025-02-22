@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    font-family: 'Passion One';
+    padding: 40px;
+    text-align: center;
+    font-size: 3em;
+
+    & h1:hover {
+        text-decoration: underline;
+        
+    }
+
+    & #milton {
+        color: white;
+        text-decoration: none;
+    }
+
+    & #milton:hover {
+        text-decoration: underline;
+    }
+}
